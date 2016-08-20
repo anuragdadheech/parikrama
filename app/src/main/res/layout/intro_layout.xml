@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:material="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:padding="2dp"
+        android:background="@drawable/component_full_shadow"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:id="@+id/header_text"
+            android:text="@string/intro_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_margin="12dp"
+            android:id="@+id/name"
+            material:met_floatingLabel="highlight"
+            android:hint="@string/name_hint"
+            android:layout_below="@id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_margin="12dp"
+            android:id="@+id/mobile"
+            material:met_floatingLabel="highlight"
+            android:hint="@string/mobile_hint"
+            android:layout_below="@id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_margin="12dp"
+            android:id="@+id/area"
+            material:met_floatingLabel="highlight"
+            android:hint="@string/area_hint"
+            android:layout_below="@id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_margin="12dp"
+            android:id="@+id/members"
+            material:met_floatingLabel="highlight"
+            android:hint="@string/members_hint"
+            android:layout_below="@id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </RelativeLayout>
+
+</ScrollView>

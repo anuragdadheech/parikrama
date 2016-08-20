@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/survey_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parikrama.swachh.SurveyActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/survey_pager"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:clipToPadding="false"
+        android:layout_marginTop="20dp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_marginTop="10dp"
+        android:id="@+id/indicator"
+        android:layout_below="@id/survey_pager"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:ci_width="4dp"
+        app:ci_height="4dp"
+        app:ci_drawable="@drawable/indicator"
+        app:ci_drawable_unselected="@drawable/indicator" />
+
+    <RelativeLayout
+        android:layout_below="@id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:text="@string/previous"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:text="@string/next"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:text="@string/submit"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

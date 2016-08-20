@@ -1,0 +1,106 @@
+{
+	"data": {
+		"questions": [
+			{
+				"row": "L",
+				"type": "SELECT",
+				"description": "1. Are you aware that waste segregation is mandated by high court?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "M",
+				"type": "SELECT",
+				"description": "2. Are you aware that BBMP can fine citizens if waste is not segregated at source?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "N",
+				"type": "SELECT",
+				"description": "3. Do you segregate waste?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "O",
+				"type": "TEXT",
+				"description": "4. If no, why?",
+				"answers": []
+			},
+			{
+				"row": "P",
+				"type": "SELECT",
+				"description": "5. Do you use 2 bin and 1 bag to segregate waste?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "Q",
+				"type": "SELECT",
+				"description": "6. Is there proper door-to-door waste collection in your area?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "R",
+				"type": "SELECT",
+				"description": "7. Do you compost wet waste in your house?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "S",
+				"type": "SELECT",
+				"description": "8. Do you know where the dry waste collection center is?",
+				"answers": [
+					"YES",
+					"NO"
+				]
+			},
+			{
+				"row": "T",
+				"type": "SELECT",
+				"description": "9. Who do you think is responsible for majority of citizens to follow the practice of waste segregation?",
+				"answers": [
+					"Citizens",
+					"BBMP",
+					"Both"
+				]
+			},
+			{
+				"row": "U",
+				"type": "TEXT",
+				"description": "10.Has any of your family member suffered from any infection/disease in the past 6 months?",
+				"answers": []
+			},
+			{
+				"row": "V",
+				"type": "TEXT",
+				"description": "11. Do you know what are the sources of the infection/disease?",
+				"answers": []
+			},
+			{
+				"row": "W",
+				"type": "TEXT",
+				"description": "12. Any suggestions/feedback regarding waste management in your locality?",
+				"answers": []
+			}
+		]
+	},
+	"meta": {
+		"code": 200
+	}
+}
